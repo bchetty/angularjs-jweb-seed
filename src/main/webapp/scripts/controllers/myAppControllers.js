@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tsApp.controllers', [])
+angular.module('myApp.controllers', [])
         .controller('homeController', function ($scope) {
             $scope.message = "HOME PAGE!";    
         })
